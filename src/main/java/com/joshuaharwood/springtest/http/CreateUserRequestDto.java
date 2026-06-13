@@ -9,6 +9,6 @@ import java.time.LocalDate;
  */
 public record CreateUserRequestDto(@NotBlank String firstName,
                                    @NotBlank String lastName,
-                                   @NotBlank @Past LocalDate dateOfBirth) {
+                                   @Past LocalDate dateOfBirth) {
 
 }

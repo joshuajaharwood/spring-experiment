@@ -1,6 +1,5 @@
 package com.joshuaharwood.springtest.http;
 
-import jakarta.validation.constraints.NotBlank;
 import java.time.LocalDate;
 
 /**
